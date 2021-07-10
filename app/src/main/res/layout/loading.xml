@@ -19,7 +19,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gatito"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="174dp"
+            android:contentDescription="@string/gatito"
+            android:src="@drawable/gatito"
+            app:srcCompat="@drawable/gatito" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
