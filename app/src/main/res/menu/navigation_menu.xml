@@ -2,27 +2,31 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="myProfile"
-        android:title="Meu Perfil"
-        android:icon="@drawable/ic_baseline_person_24">
+        android:id="@+id/myProfile"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="@string/profile">
+
     </item>
 
     <item
-        android:id="MyCats"
-        android:title="Meus Gatos"
-        android:icon="@drawable/icone_gato">
+        android:id="@+id/myCats"
+        android:icon="@drawable/icone_gato"
+        android:title="@string/myCats">
+
     </item>
 
     <item
-        android:id="geolocation"
-        android:title="Gatos pelo Mundo"
-        android:icon="@drawable/icone_mundo">
+        android:id="@+id/geolocation"
+        android:icon="@drawable/icone_mundo"
+        android:title="@string/geolocation">
+
     </item>
 
     <item
-        android:id="temperature"
-        android:title="Temperatura Ideal"
-        android:icon="@drawable/icone_temperatura">
+        android:id="@+id/temperature"
+        android:icon="@drawable/icone_temperatura"
+        android:title="@string/temperature">
+
     </item>
 
 </menu>

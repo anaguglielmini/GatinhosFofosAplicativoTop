@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <androidx.drawerlayout.widget.DrawerLayout
+    android:id="@+id/dl"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -18,15 +19,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <ScrollView
-        android:id="@+id/scrollView2"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -38,7 +30,6 @@
                 android:layout_height="wrap_content"
                 android:visibility="visible" />
         </LinearLayout>
-    </ScrollView>
 
 </RelativeLayout>
 
@@ -47,7 +38,8 @@
         android:layout_height="match_parent"
         android:id="@+id/nav_view"
         android:Layout_gravity="start"
-        app:headerLayout="@layout/navigation_header">
+        app:headerLayout="@layout/navigation_header"
+        app:menu="@menu/navigation_menu">
 
     </com.google.android.material.navigation.NavigationView>
 </androidx.drawerlayout.widget.DrawerLayout>

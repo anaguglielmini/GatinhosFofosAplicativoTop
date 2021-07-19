@@ -1,7 +1,13 @@
 <resources>
     <string name="app_name">GatinhosFofosAplicativoTop</string>
+
+    <string name="Open">GatinhosFofosAplicativoTop</string>
+    <string name="Close">GatinhosFofosAplicativoTop</string>
+
+    <string name="profile">Meu Perfil</string>
+    <string name="myCats">Meus Gatos</string>
+    <string name="geolocation">Gatos pelo Mundo</string>
+    <string name="temperature">Temperatura Ideal</string>
+
     <string name="gatito"> Gato </string>
-
-
-
 </resources>
