@@ -42,16 +42,16 @@ public class MainActivity extends AppCompatActivity {
                 int id = item.getItemId();
 
                 if (id == R.id.myProfile){
-                    Toast.makeText(MainActivity.this, "Meu Perfil", Toast.LENGTH_SHORT).show();
+                    setContentView(R.layout.my_profile);
                 }
                 else if (id == R.id.myCats){
-                    Toast.makeText(MainActivity.this, "Meus Gatos", Toast.LENGTH_SHORT).show();
+                    setContentView(R.layout.my_cats);
                 }
                 else if (id == R.id.geolocation){
-                    Toast.makeText(MainActivity.this, "Gatos pelo Mundo", Toast.LENGTH_SHORT).show();
+                    setContentView(R.layout.geolocation);
                 }
                 else if (id == R.id.temperature){
-                    Toast.makeText(MainActivity.this, "Temperatura Ideal para seu gato", Toast.LENGTH_SHORT).show();
+                    setContentView(R.layout.temperature);
                 }
 
                 return true;
