@@ -4,25 +4,25 @@
     <item
         android:id="myProfile"
         android:title="Meu Perfil"
-        android:icon="">
+        android:icon="@drawable/ic_baseline_person_24">
     </item>
 
     <item
         android:id="MyCats"
         android:title="Meus Gatos"
-        android:icon="">
+        android:icon="@drawable/icone_gato">
     </item>
 
     <item
         android:id="geolocation"
-        android:title="Gatos Regionais"
-        android:icon="">
+        android:title="Gatos pelo Mundo"
+        android:icon="@drawable/icone_mundo">
     </item>
 
     <item
         android:id="temperature"
         android:title="Temperatura Ideal"
-        android:icon="">
+        android:icon="@drawable/icone_temperatura">
     </item>
 
 </menu>
