@@ -1,4 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <item
+        android:id="myProfile"
+        android:title="Meu Perfil"
+        android:icon="">
+    </item>
+
+    <item
+        android:id="MyCats"
+        android:title="Meus Gatos"
+        android:icon="">
+    </item>
+
+    <item
+        android:id="geolocation"
+        android:title="Gatos Regionais"
+        android:icon="">
+    </item>
+
+    <item
+        android:id="temperature"
+        android:title="Temperatura Ideal"
+        android:icon="">
+    </item>
+
 </menu>
