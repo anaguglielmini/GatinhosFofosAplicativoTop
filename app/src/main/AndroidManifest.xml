@@ -21,6 +21,18 @@
         <activity android:name=".MainActivity">
 
         </activity>
+
+        <activity android:name=".Geolocation">
+        </activity>
+
+        <activity android:name=".MyCats">
+        </activity>
+
+        <activity android:name=".MyProfile">
+        </activity>
+
+        <activity android:name=".Temperature">
+        </activity>
     </application>
 
 </manifest>
